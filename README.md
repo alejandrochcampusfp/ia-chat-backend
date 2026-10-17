@@ -4,7 +4,7 @@ Microservicio backend avanzado desarrollado con **FastAPI** y una arquitectura m
 
 ---
 
-## 🛠️ Tecnologías y Arquitectura
+## Tecnologías y Arquitectura
 
 * **Python 3.11**
 * **FastAPI** (Framework asíncrono de alto rendimiento)
