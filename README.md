@@ -1,4 +1,4 @@
-# 🚀 API de Chat Inteligente con Historial y Persistencia (FastAPI + SQLAlchemy + Docker)
+# API de Chat Inteligente con Historial y Persistencia (FastAPI + SQLAlchemy + Docker)
 
 Microservicio backend avanzado desarrollado con **FastAPI** y una arquitectura modular limpia, diseñado para procesar lenguaje natural mediante la API de Groq y almacenar de forma persistente todas las interacciones en una base de datos local utilizando **SQLite y SQLAlchemy**.
 
@@ -15,7 +15,7 @@ Microservicio backend avanzado desarrollado con **FastAPI** y una arquitectura m
 
 ---
 
-## 📂 Estructura del Proyecto (Patrón Modular)
+## Estructura del Proyecto (Patrón Modular)
 
 ```text
 ia-chat-backend/
@@ -35,13 +35,13 @@ ia-chat-backend/
 └── README.md             # Documentación técnica
 
 
-⚙️ Requisitos Previos
+Requisitos Previos
 Tener instalado Docker Desktop y asegurarte de que está en ejecución.
 
 Disponer de una clave de API activa de Groq Console.
 
 
-🚀 Guía de Instalación y Despliegue con Docker
+Guía de Instalación y Despliegue con Docker
 1. Crea un archivo .env en la raíz del proyecto añadiendo tu clave de acceso:
 GROQ_API_KEY=tu_clave_real_de_groq
 
@@ -52,9 +52,9 @@ docker build -t ia-chat-backend .
 docker run --name ia-chat-backend --env-file .env -p 8000:8000 ia-chat-backend
 
 
-📌 Documentación Interactiva y Endpoints
+Documentación Interactiva y Endpoints
 Una vez que el contenedor esté en marcha, accede a la documentación interactiva generada automáticamente en:
-👉 http://localhost:8000/docs
+   http://localhost:8000/docs
 
 
 1. Enviar mensaje a la IA (POST /chat)
